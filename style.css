@@ -320,12 +320,9 @@ body{
     height: 30px;
 }
 
-@media all and (max-width: 999px) {
-    .text-h1 {
-      font-size: 40px;
-    }
-    .text{
-        text-align: center;
+@media all and (max-width: 1450px){
+    .service-card-width{
+        width: 100%;
     }
     .service-card-width{
         width: 100%;
@@ -334,6 +331,16 @@ body{
         align-items: center;
         text-align: center;
     }
+}
+
+@media all and (max-width: 999px) {
+    .text-h1 {
+      font-size: 40px;
+    }
+    .text{
+        text-align: center;
+    }
+
     .footer-action-row{
         justify-content: center;
         gap:35px;
