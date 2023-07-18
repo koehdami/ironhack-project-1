@@ -1,0 +1,18 @@
+@media all and (max-width: 770px){
+    .header-col .text-h1{
+        font-size: 25px;
+    }
+
+    .header-col p{
+        font-size: 15px;
+        margin: 3px;
+    }
+    .project-body{
+        gap:0px;
+    }
+}
+
+
+body{
+    gap:100px;
+}
